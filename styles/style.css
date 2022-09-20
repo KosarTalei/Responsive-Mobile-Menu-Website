@@ -1,0 +1,33 @@
+/* 
+ * UTILITY CSS CODE - Tools to make your life easier
+ */
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  /* Screen-reader only text */
+  .sr-only:not(:focus) {
+    clip: rect(1px,1px,1px,1px);
+    overflow: hidden;
+    position: absolute;
+    padding: 0;
+  }
+  
+  .clearfix,
+  .cf {
+    display: flow-root;
+  }
+  
+  /*
+    Generic image resizer to make images "responsive".
+    Images should always fit into their container & stay in proportion, e.g. max-width: 100% + height: auto;
+   */
+  img, 
+  picture {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    /* object-fit: contain; */
+  }
